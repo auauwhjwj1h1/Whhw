@@ -1,0 +1,6 @@
+# .hound.yml
+linters:
+  bash:
+    enabled: true
+    command: "lscpu"
+    include: "**/*.sh"
